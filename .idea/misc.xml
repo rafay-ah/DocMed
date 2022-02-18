@@ -4,7 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21944444444444444" />
-        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable/buttonstyle.xml" value="0.2638888888888889" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable/rounded_edittext.xml" value="0.25" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_enter_otp.xml" value="0.2667572463768116" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_get_started.xml" value="0.25" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_get_started_info2.xml" value="0.33" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_get_started_info3.xml" value="0.33" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signin.xml" value="0.25" />
       </map>
     </option>
   </component>
@@ -13,5 +20,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DocMed">
         <activity
+            android:name=".activities.Signup"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EnterNewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EnterOTP"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RecoverPassword"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Signin"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GetStartedInfo3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GetStartedInfo2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GetStarted"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
