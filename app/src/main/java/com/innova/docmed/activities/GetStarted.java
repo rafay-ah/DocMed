@@ -17,9 +17,9 @@ public class GetStarted extends AppCompatActivity {
     }
 
     public void skip(View view) {
-
-//        Intent i = new Intent(getApplicationContext(), GetStartedInfo2.class);
-//        startActivity(i);
+        Intent i = new Intent(GetStarted.this, Signin.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
     }
 
     public void next(View view) {

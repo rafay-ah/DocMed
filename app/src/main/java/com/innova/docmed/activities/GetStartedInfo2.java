@@ -17,6 +17,9 @@ public class GetStartedInfo2 extends AppCompatActivity {
     }
 
     public void skip(View view) {
+        Intent i = new Intent(this, Signin.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
     }
 
     public void next1(View view) {
