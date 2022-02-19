@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DocMed">
         <activity
+            android:name=".activities.Dashboard"
+            android:exported="false" />
+        <activity
             android:name=".activities.Signup"
             android:exported="false" />
         <activity
