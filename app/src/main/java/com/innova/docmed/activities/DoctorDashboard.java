@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.innova.docmed.R;
 
-public class Dashboard extends AppCompatActivity {
+public class DoctorDashboard extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pharmacist_dashboard);
+        setContentView(R.layout.activity_doctor_dashboard);
     }
 }

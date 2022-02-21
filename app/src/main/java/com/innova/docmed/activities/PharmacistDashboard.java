@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.innova.docmed.R;
 
-public class Dashboard extends AppCompatActivity {
+public class PharmacistDashboard extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

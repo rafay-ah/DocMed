@@ -3,10 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_home.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_appointement.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_calendar.xml" value="0.32592592592592595" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21944444444444444" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_person.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_profile.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_request.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/rectangle_round.xml" value="0.22407407407407406" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable/buttonstyle.xml" value="0.2638888888888889" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable/rounded_edittext.xml" value="0.25" />
-        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_dashboard.xml" value="0.3074074074074074" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_doctor_dashboard.xml" value="0.3074074074074074" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_enter_new_password.xml" value="0.22" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_enter_otp.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_get_started.xml" value="0.25" />
@@ -16,6 +24,7 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_recover_password.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signin.xml" value="0.1" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/button_danger.xml" value="0.3074074074074074" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22407407407407406" />
       </map>
     </option>
@@ -29,7 +38,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.33" />
+        <option name="scale" value="0.3074074074074074" />
       </ProjectState>
     </option>
   </component>
