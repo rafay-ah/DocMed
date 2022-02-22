@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DocMed">
         <activity
+            android:name=".patient.Appointments"
+            android:exported="false" />
+        <activity
+            android:name=".patient.PatientProfile"
+            android:exported="false" />
+        <activity
+            android:name=".patient.MyDoctors"
+            android:exported="false" />
+        <activity
+            android:name=".patient.MedicalDossier"
+            android:exported="false" />
+        <activity
             android:name=".patient.SearchDoctors"
             android:exported="false" />
         <activity
