@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DocMed">
         <activity
+            android:name=".patient.SearchDoctors"
+            android:exported="false" />
+        <activity
             android:name=".activities.PharmacistDashboard"
             android:exported="false" />
         <activity
