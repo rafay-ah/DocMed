@@ -89,7 +89,7 @@
         android:layout_marginTop="220dp"
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
-        android:text="Appointements"
+        android:text="Appointments"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
