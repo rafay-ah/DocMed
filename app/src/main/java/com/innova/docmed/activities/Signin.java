@@ -18,7 +18,7 @@ public class Signin extends AppCompatActivity {
 
     public void signIn(View view) {
 
-        Intent i = new Intent(getApplicationContext(), Dashboard.class);
+        Intent i = new Intent(getApplicationContext(), DoctorDashboard.class);
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(i);
 

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "845510435897",
+    "firebase_url": "https://docmed-560e9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "docmed-560e9",
+    "storage_bucket": "docmed-560e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845510435897:android:3e055c9e5a9394a9ee19e8",
+        "android_client_info": {
+          "package_name": "com.innova.docmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845510435897-nbuk9dashq28o573hilhugghquitagq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.innova.docmed",
+            "certificate_hash": "ee751a061676f11e21791d83988ce49aac59df3b"
+          }
+        },
+        {
+          "client_id": "845510435897-pe7pv38r2he3l1earq8dcqn5g82buevo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChq6Ao75JxFxGDZCpAWT3w94pJA05qzaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845510435897-pe7pv38r2he3l1earq8dcqn5g82buevo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

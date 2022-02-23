@@ -23,8 +23,10 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable/buttonstyle.xml" value="0.2638888888888889" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable/rounded_edittext.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_appointments.xml" value="0.3375" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_dappointment.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
-        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_doctor_dashboard.xml" value="0.3074074074074074" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_doctor_calander.xml" value="0.25" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_doctor_dashboard.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_enter_new_password.xml" value="0.22" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_enter_otp.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_get_started.xml" value="0.25" />
@@ -33,13 +35,16 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_medical_dossier.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_my_doctors.xml" value="0.3375" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_my_patients.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_patient_profile.xml" value="0.25" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_patient_requests.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_pharmacist_dashboard.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_recover_password.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_search_doctors.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signin.xml" value="0.1" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signup.xml" value="0.2" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/button_danger.xml" value="0.3074074074074074" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/layout_time_slot.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/my_doctor_item.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/menu/navigation_bar.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22407407407407406" />

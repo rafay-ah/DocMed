@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.innova.docmed.R;
+import com.innova.docmed.patient.Appointments;
 import com.innova.docmed.patient.MedicalDossier;
 import com.innova.docmed.patient.MyDoctors;
 import com.innova.docmed.patient.PatientProfile;
@@ -46,6 +47,9 @@ public class Dashboard extends AppCompatActivity {
     }
 
     public void appointmentsIntent(View view) {
+
+        Intent k = new Intent(getApplicationContext(), Appointments.class);
+        startActivity(k);
 
     }
 }
