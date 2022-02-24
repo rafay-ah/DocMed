@@ -8,12 +8,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
 import com.innova.docmed.R;
 import com.innova.docmed.patient.Appointments;
 import com.innova.docmed.patient.MedicalDossier;
 import com.innova.docmed.patient.MyDoctors;
 import com.innova.docmed.patient.PatientProfile;
 import com.innova.docmed.patient.SearchDoctors;
+import com.innova.docmed.utilities.Common;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -21,6 +26,14 @@ public class Dashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+
+        Common.CurrentUserid= FirebaseAuth.getInstance().getCurrentUser().getEmail().toString();
+        FirebaseFirestore.getInstance().collection("User").document(Common.CurrentUserid).get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+            @Override
+            public void onSuccess(DocumentSnapshot documentSnapshot) {
+                Common.CurrentUserName = documentSnapshot.getString("name");
+            }
+        });
 
     }
 

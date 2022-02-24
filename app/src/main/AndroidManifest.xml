@@ -72,6 +72,9 @@
             android:name=".activities.GetStarted"
             android:exported="false" />
         <activity
+            android:name=".patient.TestActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

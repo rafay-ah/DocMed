@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="consultation_options" >
+        <item>Consultation</item>
+        <item>Hospitalisation</item>
+    </string-array>
+
+</resources>

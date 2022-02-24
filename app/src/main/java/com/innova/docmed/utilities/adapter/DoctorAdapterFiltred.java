@@ -25,6 +25,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.innova.docmed.R;
 import com.innova.docmed.model.Doctor;
+import com.innova.docmed.patient.TestActivity;
 import com.innova.docmed.utilities.Common;
 import com.squareup.picasso.Picasso;
 
@@ -176,7 +177,7 @@ public class DoctorAdapterFiltred  extends RecyclerView.Adapter<DoctorAdapterFil
         }
     }
     private void openPage(Context wf){
-//        Intent i = new Intent(wf, TestActivity.class);
-//        wf.startActivity(i);
+        Intent i = new Intent(wf, TestActivity.class);
+        wf.startActivity(i);
     }
 }
