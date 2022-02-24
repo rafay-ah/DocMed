@@ -1,7 +1,10 @@
 package com.innova.docmed.patient;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -18,17 +21,53 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.SearchView;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
+import com.google.firebase.firestore.QuerySnapshot;
 import com.innova.docmed.R;
+import com.innova.docmed.model.Doctor;
+import com.innova.docmed.utilities.adapter.DoctorAdapterFiltred;
 
 public class SearchDoctors extends AppCompatActivity {
-
+    private FirebaseFirestore db = FirebaseFirestore.getInstance();
+    private CollectionReference doctorRef = db.collection("Doctor");
+    private DoctorAdapterFiltred adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_doctors);
         configureToolbar();
+        setUpRecyclerView();
+    }
 
+    private void setUpRecyclerView() {
+        RecyclerView recyclerView = findViewById(R.id.serachPatRecycle);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        Query query = doctorRef.orderBy("name", Query.Direction.DESCENDING);
+
+        query.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                adapter = new DoctorAdapterFiltred(task.getResult().toObjects(Doctor.class));
+                recyclerView.setAdapter(adapter);
+            }
+        });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+
+    @Override
+    protected void onStop() {
+        super.onStop();
     }
 
     private void configureToolbar(){
@@ -62,8 +101,8 @@ public class SearchDoctors extends AppCompatActivity {
             }
             @Override
             public boolean onQueryTextChange(String newText) {
-//                DoctorAdapterFiltred.specialiteSearch = false;
-//                adapter.getFilter().filter(newText);
+                DoctorAdapterFiltred.specialiteSearch = false;
+                adapter.getFilter().filter(newText);
                 return false;
             }
         });
@@ -74,36 +113,36 @@ public class SearchDoctors extends AppCompatActivity {
         //3 - Handle actions on menu items
         switch (item.getItemId()) {
             case R.id.option_all:
-//                DoctorAdapterFiltred.specialiteSearch = true;
-//                adapter.getFilter().filter("");
+                DoctorAdapterFiltred.specialiteSearch = true;
+                adapter.getFilter().filter("");
                 return true;
             case R.id.option_general:
-//                DoctorAdapterFiltred.specialiteSearch = true;
-//                adapter.getFilter().filter("General Medicine");
+                DoctorAdapterFiltred.specialiteSearch = true;
+                adapter.getFilter().filter("General");
                 return true;
             case R.id.option_Dentist:
-//                DoctorAdapterFiltred.specialiteSearch = true;
-//                adapter.getFilter().filter("Dentist");
+                DoctorAdapterFiltred.specialiteSearch = true;
+                adapter.getFilter().filter("Dentist");
                 return true;
             case R.id.option_Ophthalmologists:
-//                DoctorAdapterFiltred.specialiteSearch = true;
-//                adapter.getFilter().filter("Ophthalmologists");
+                DoctorAdapterFiltred.specialiteSearch = true;
+                adapter.getFilter().filter("Ophthalmologists");
                 return true;
             case R.id.option_ORL:
-//                DoctorAdapterFiltred.specialiteSearch = true;
-//                adapter.getFilter().filter("ORL");
+                DoctorAdapterFiltred.specialiteSearch = true;
+                adapter.getFilter().filter("ORL");
                 return true;
             case R.id.option_Pediatrics:
-//                DoctorAdapterFiltred.specialiteSearch = true;
-//                adapter.getFilter().filter("Pediatrics");
+                DoctorAdapterFiltred.specialiteSearch = true;
+                adapter.getFilter().filter("Pediatrics");
                 return true;
             case R.id.option_Radiologist:
-//                DoctorAdapterFiltred.specialiteSearch = true;
-//                adapter.getFilter().filter("Radiologist");
+                DoctorAdapterFiltred.specialiteSearch = true;
+                adapter.getFilter().filter("Radiologist");
                 return true;
             case R.id.option_Rheumatologists:
-//                DoctorAdapterFiltred.specialiteSearch = true;
-//                adapter.getFilter().filter("Rheumatologists");
+                DoctorAdapterFiltred.specialiteSearch = true;
+                adapter.getFilter().filter("Rheumatologists");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

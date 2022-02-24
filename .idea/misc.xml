@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_green.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_home.xml" value="0.22407407407407406" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_add_location_black_24dp.xml" value="0.22037037037037038" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_appointement.xml" value="0.22407407407407406" />
@@ -44,6 +45,7 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signin.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signup.xml" value="0.2" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/button_danger.xml" value="0.3074074074074074" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/doctor_item.xml" value="0.28067700987306066" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/layout_time_slot.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/my_doctor_item.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/menu/navigation_bar.xml" value="0.25" />
