@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.innova.docmed.R;
 import com.innova.docmed.doctor.DAppointment;
 import com.innova.docmed.doctor.DoctorCalander;
@@ -13,6 +14,7 @@ import com.innova.docmed.doctor.MyPatients;
 import com.innova.docmed.doctor.PatientRequests;
 import com.innova.docmed.patient.PatientProfile;
 import com.innova.docmed.patient.SearchDoctors;
+import com.innova.docmed.utilities.Common;
 
 public class DoctorDashboard extends AppCompatActivity {
 
@@ -20,6 +22,9 @@ public class DoctorDashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_dashboard);
+
+        Common.CurreentDoctor = FirebaseAuth.getInstance().getCurrentUser().getEmail().toString();
+        Common.CurrentUserType = "doctor";
     }
 
     public void myPatientsIntent(View view) {
