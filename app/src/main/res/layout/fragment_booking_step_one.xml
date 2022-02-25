@@ -4,7 +4,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
 
     <TextView
         android:layout_width="match_parent"
@@ -12,7 +13,7 @@
         android:layout_marginTop="50dp"
         android:gravity="center_horizontal"
         android:text="Select your appointment purpose"
-        android:textSize="24sp" />
+        android:textSize="20sp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -26,14 +27,9 @@
         android:id="@+id/spinnerBooking"
         android:layout_width="299dp"
         android:layout_height="46dp"
-
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
         android:layout_marginTop="75dp"
-        android:layout_marginEnd="62dp"
-        android:layout_marginRight="62dp"
         android:layout_marginBottom="200dp"
-        android:background="#ffffff"
+        android:background="@drawable/bg_spinner"
         android:paddingLeft="20dp"
         android:spinnerMode="dropdown" />
 
