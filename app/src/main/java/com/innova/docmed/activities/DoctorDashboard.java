@@ -5,11 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.innova.docmed.R;
 import com.innova.docmed.doctor.DAppointment;
 import com.innova.docmed.doctor.DoctorCalander;
+import com.innova.docmed.doctor.DoctorProfile;
 import com.innova.docmed.doctor.MyPatients;
 import com.innova.docmed.doctor.PatientRequests;
 import com.innova.docmed.patient.PatientProfile;
@@ -38,7 +40,7 @@ public class DoctorDashboard extends AppCompatActivity {
     }
 
     public void doctorProfileIntent(View view) {
-        Intent k = new Intent(getApplicationContext(), PatientProfile.class);
+        Intent k = new Intent(getApplicationContext(), DoctorProfile.class);
         startActivity(k);
     }
 
@@ -50,5 +52,14 @@ public class DoctorDashboard extends AppCompatActivity {
     public void doctorCalendarIntent(View view) {
         Intent k = new Intent(getApplicationContext(), DoctorCalander.class);
         startActivity(k);
+    }
+
+    public void docSignOut(View view) {
+        FirebaseAuth.getInstance().signOut();
+        Toast.makeText(this, "Signing you out!!",
+                Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getApplicationContext(), Signin.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
     }
 }

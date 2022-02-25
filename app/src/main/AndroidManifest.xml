@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DocMed">
         <activity
+            android:name=".doctor.DoctorProfile"
+            android:exported="false" />
+        <activity
             android:name=".doctor.DoctorCalander"
             android:exported="false" />
         <activity
