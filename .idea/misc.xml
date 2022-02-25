@@ -29,11 +29,15 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_search_white.xml" value="0.22037037037037038" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/rectangle_round.xml" value="0.22407407407407406" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/rounded_dialog.xml" value="0.22685185185185186" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/rounded_message.xml" value="0.30925925925925923" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/rounded_message2.xml" value="0.30925925925925923" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/rounded_relativelayout.xml" value="0.22037037037037038" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable/bg_spinner.xml" value="0.22962962962962963" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable/buttonstyle.xml" value="0.2638888888888889" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable/rounded_edittext.xml" value="0.25" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_appointment.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_appointments.xml" value="0.3375" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_chat.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_dappointment.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_doctor_calander.xml" value="0.25" />
@@ -66,6 +70,7 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/fragment_consultation.xml" value="0.20989583333333334" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/fragment_consultation_page.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/layout_time_slot.xml" value="0.3375" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/message_chat_item.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/my_doctor_item.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/my_patient_item.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/pat_request_item.xml" value="0.3375" />

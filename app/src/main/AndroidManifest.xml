@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DocMed">
         <activity
+            android:name=".activities.AppointmentActivity"
+            android:exported="false" />
+        <activity
             android:name=".doctor.DoctorProfile"
             android:exported="false" />
         <activity
@@ -55,6 +58,9 @@
             android:exported="false" />
         <activity
             android:name=".activities.EnterNewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ChatActivity"
             android:exported="false" />
         <activity
             android:name=".activities.EnterOTP"

@@ -19,6 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.innova.docmed.R;
+import com.innova.docmed.activities.ChatActivity;
 import com.innova.docmed.model.Patient;
 import com.innova.docmed.patient.MedicalDossier;
 import com.squareup.picasso.Picasso;
@@ -101,10 +102,10 @@ public class MyPatientsAdapter extends FirestoreRecyclerAdapter<Patient, MyPatie
     }
 
     private void openPage(Context wf,Patient p){
-//        Intent i = new Intent(wf, ChatActivity.class);
-//        i.putExtra("key1",p.getEmail()+"_"+ FirebaseAuth.getInstance().getCurrentUser().getEmail().toString());
-//        i.putExtra("key2",FirebaseAuth.getInstance().getCurrentUser().getEmail().toString()+"_"+p.getEmail());
-//        wf.startActivity(i);
+        Intent i = new Intent(wf, ChatActivity.class);
+        i.putExtra("key1",p.getEmail()+"_"+ FirebaseAuth.getInstance().getCurrentUser().getEmail().toString());
+        i.putExtra("key2",FirebaseAuth.getInstance().getCurrentUser().getEmail().toString()+"_"+p.getEmail());
+        wf.startActivity(i);
     }
     @NonNull
     @Override
