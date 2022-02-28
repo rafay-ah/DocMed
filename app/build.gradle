@@ -58,6 +58,8 @@ dependencies {
 
 
     implementation 'com.google.guava:guava:27.0.1-android'
+    implementation 'io.agora.uikit:agorauikit:2.0.1'
+    implementation 'io.agora.rtc:full-sdk:3.5.0'
 
 
 }

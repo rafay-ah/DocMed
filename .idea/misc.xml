@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RAFAY/.gradle/caches/transforms-3/ad78026abbaea60ebc107e6932b6bbe1/transformed/jetified-agorauikit-2.0.1/res/layout/group_template.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_danger.xml" value="0.30462962962962964" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_green.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_home.xml" value="0.22407407407407406" />
@@ -60,6 +61,7 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signin.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signup.xml" value="0.2" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_test.xml" value="0.33" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_vedio_call.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/button_danger.xml" value="0.3074074074074074" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/confirmed_appointements_item.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/doctor_appointement_item.xml" value="0.3375" />
@@ -71,7 +73,7 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/fragment_consultation_page.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/layout_time_slot.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/message_chat_item.xml" value="0.3375" />
-        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/my_doctor_item.xml" value="0.25" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/my_doctor_item.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/my_patient_item.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/pat_request_item.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/patient_appointments_item.xml" value="0.33" />

@@ -2,6 +2,7 @@ package com.innova.docmed.utilities.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -18,6 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.innova.docmed.R;
+import com.innova.docmed.activities.ChatActivity;
 import com.innova.docmed.model.Doctor;
 import com.squareup.picasso.Picasso;
 
@@ -38,7 +41,7 @@ public class MyDoctorsAdapter extends FirestoreRecyclerAdapter<Doctor, MyDoctors
     @Override
     protected void onBindViewHolder(@NonNull MyDoctorAppointementHolder myDoctorsHolder, int position, @NonNull final Doctor doctor) {
         myDoctorsHolder.textViewTitle.setText(doctor.getName());
-        myDoctorsHolder.textViewDescription.setText("Specialite : "+doctor.getSpecialization());
+        myDoctorsHolder.textViewDescription.setText("Specialization : "+doctor.getSpecialization());
         myDoctorsHolder.sendMessageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,15 +78,23 @@ public class MyDoctorsAdapter extends FirestoreRecyclerAdapter<Doctor, MyDoctors
     }
 
     private void openPage(Context wf, String phoneNumber){
-        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + phoneNumber));
-        wf.startActivity(intent);
+//        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + phoneNumber));
+//        wf.startActivity(intent);
+
+        try {
+            wf.getPackageManager().getPackageInfo("com.whatsapp", PackageManager.GET_META_DATA);
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://wa.me/" +"+92"+ phoneNumber));
+            wf.startActivity(intent);
+        } catch (PackageManager.NameNotFoundException e) {
+            Toast.makeText(wf, "WhatsApp not Installed", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void openPage(Context wf, Doctor d){
-//        Intent i = new Intent(wf, ChatActivity.class);
-//        i.putExtra("key1",d.getEmail()+"_"+ FirebaseAuth.getInstance().getCurrentUser().getEmail().toString());
-//        i.putExtra("key2",FirebaseAuth.getInstance().getCurrentUser().getEmail().toString()+"_"+d.getEmail());
-//        wf.startActivity(i);
+        Intent i = new Intent(wf, ChatActivity.class);
+        i.putExtra("key1",d.getEmail()+"_"+ FirebaseAuth.getInstance().getCurrentUser().getEmail().toString());
+        i.putExtra("key2",FirebaseAuth.getInstance().getCurrentUser().getEmail().toString()+"_"+d.getEmail());
+        wf.startActivity(i);
     }
 
     @NonNull
