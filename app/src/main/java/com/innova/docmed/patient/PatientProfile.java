@@ -51,9 +51,9 @@ public class PatientProfile extends AppCompatActivity {
         doctorAddress = findViewById(R.id.doctor_address);
         doctorAbout = findViewById(R.id.doctor_about);
         doctorImage = findViewById(R.id.imageView3);
-        Drawable defaultImage = getResources().getDrawable(R.drawable.ic_anon_user_48dp); //default user image
+//        Drawable defaultImage = getResources().getDrawable(R.drawable.ic_anon_user_48dp); //default user image
         AlertDialog dialog = new SpotsDialog.Builder().setContext(this).setCancelable(true).build();
-        dialog.show();
+//        dialog.show();
 
         String imageId = FirebaseAuth.getInstance().getCurrentUser().getEmail().toString();
         pathReference = FirebaseStorage.getInstance().getReference().child("DoctorProfile/"+ imageId+".jpg");
@@ -83,7 +83,7 @@ public class PatientProfile extends AppCompatActivity {
                 doctorPhone.setText(documentSnapshot.getString("tel"));
                 doctorEmail.setText(documentSnapshot.getString("email"));
                 doctorAddress.setText(documentSnapshot.getString("adresse"));
-                doctorImage.setImageDrawable(defaultImage);
+//                doctorImage.setImageDrawable(defaultImage);
             }
         });
     }

@@ -51,7 +51,7 @@ public class DoctorProfile extends AppCompatActivity {
         doctorAddress = findViewById(R.id.doctor_address);
         doctorAbout = findViewById(R.id.doctor_about);
         AlertDialog dialog = new SpotsDialog.Builder().setContext(this).setCancelable(true).build();
-        dialog.show();
+//        dialog.show();
 
         //display profile image
         String imageId = FirebaseAuth.getInstance().getCurrentUser().getEmail().toString();

@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.PharmacistDashboard">
+    tools:context=".activities.PharmacistDashboard"
+    android:layout_gravity="center">
 
     <Button
         android:id="@+id/signOutBtn"
         android:layout_width="211dp"
         android:layout_height="45dp"
         android:text="SignOut"
+        android:onClick="pharmacistSignout"
         android:textColor="#FFF"
         android:textSize="16sp"
         app:cornerRadius="11dp"
@@ -35,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome User"
+            android:text="Welcome"
             android:textColor="#ffffff"
             android:textSize="26sp" />
         <TextView
@@ -55,8 +57,8 @@
         android:layout_marginTop="81dp"
         android:layout_marginBottom="237dp"
         android:background="@drawable/button_home"
-        android:text="My Orders"
-
+        android:text="Reach Sellers"
+        android:onClick="reachSellers"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,8 +74,9 @@
         android:layout_marginTop="220dp"
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
-        android:text="Receipts"
-        android:textSize="12sp"
+        android:text="Feedback"
+        android:onClick="addFeedback"
+        android:textSize="11sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.728"
@@ -89,7 +92,7 @@
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
         android:text="Profile"
-
+        android:onClick="viewProfile"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,11 +108,12 @@
         android:layout_marginTop="81dp"
         android:layout_marginBottom="237dp"
         android:background="@drawable/button_home"
-        android:text="Search"
+        android:onClick="reachBuyers"
+        android:text="Reach Buyers"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
         app:layout_constraintVertical_bias="0.6" />

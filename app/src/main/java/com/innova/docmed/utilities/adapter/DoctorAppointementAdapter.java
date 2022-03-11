@@ -21,6 +21,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.innova.docmed.R;
+import com.innova.docmed.activities.ChatActivity;
 import com.innova.docmed.model.ApointementInformation;
 import com.innova.docmed.model.Doctor;
 import com.innova.docmed.model.Patient;
@@ -114,10 +115,10 @@ public class DoctorAppointementAdapter extends FirestoreRecyclerAdapter<Apointem
     }
 
     private void openPage(Context wf, Doctor d){
-//        Intent i = new Intent(wf, ChatActivity.class);
-//        i.putExtra("key1",d.getEmail()+"_"+ FirebaseAuth.getInstance().getCurrentUser().getEmail().toString());
-//        i.putExtra("key2",FirebaseAuth.getInstance().getCurrentUser().getEmail().toString()+"_"+d.getEmail());
-//        wf.startActivity(i);
+        Intent i = new Intent(wf, ChatActivity.class);
+        i.putExtra("key1",d.getEmail()+"_"+ FirebaseAuth.getInstance().getCurrentUser().getEmail().toString());
+        i.putExtra("key2",FirebaseAuth.getInstance().getCurrentUser().getEmail().toString()+"_"+d.getEmail());
+        wf.startActivity(i);
     }
 
     @NonNull
