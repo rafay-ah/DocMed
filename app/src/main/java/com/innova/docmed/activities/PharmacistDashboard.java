@@ -9,7 +9,9 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.innova.docmed.R;
+import com.innova.docmed.pharmacist.PharmacistProfile;
 import com.innova.docmed.pharmacist.ReachBuyers;
+import com.innova.docmed.pharmacist.ReachSellers;
 
 /*
 * Reach Buyers
@@ -39,11 +41,17 @@ public class PharmacistDashboard extends AppCompatActivity {
     }
 
     public void reachSellers(View view) {
+        Intent reachPatients = new Intent(getApplicationContext(), ReachSellers.class);
+        startActivity(reachPatients);
     }
 
     public void viewProfile(View view) {
+        Intent reachPatients = new Intent(getApplicationContext(), PharmacistProfile.class);
+        startActivity(reachPatients);
     }
 
     public void addFeedback(View view) {
+        Intent reachPatients = new Intent(getApplicationContext(), Feedback.class);
+        startActivity(reachPatients);
     }
 }

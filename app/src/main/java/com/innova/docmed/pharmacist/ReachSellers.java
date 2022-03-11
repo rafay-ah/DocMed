@@ -14,13 +14,11 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 import com.innova.docmed.R;
 import com.innova.docmed.model.Patient;
-import com.innova.docmed.utilities.adapter.DoctorAdapterFiltred;
-import com.innova.docmed.utilities.adapter.ListAllPatientAdapter;
 import com.innova.docmed.utilities.adapter.MyPatientsAdapter;
 
-public class ReachBuyers extends AppCompatActivity {
+public class ReachSellers extends AppCompatActivity {
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
-    private CollectionReference myPatientsRef = db.collection("Patient");
+    private CollectionReference myPatientsRef = db.collection("Pharmacist");
     private MyPatientsAdapter adapter;
 
     @Override
@@ -29,7 +27,7 @@ public class ReachBuyers extends AppCompatActivity {
         setContentView(R.layout.activity_my_patients);
         setUpRecyclerView();
         TextView toolbarTitle = findViewById(R.id.toolbarTitle);
-        toolbarTitle.setText("Available Buyers");
+        toolbarTitle.setText("Available Sellers");
     }
 
     public void setUpRecyclerView(){

@@ -4,12 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/RAFAY/.gradle/caches/transforms-3/ad78026abbaea60ebc107e6932b6bbe1/transformed/jetified-agorauikit-2.0.1/res/layout/group_template.xml" value="0.3375" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_corner.xml" value="0.175" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_danger.xml" value="0.30462962962962964" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_green.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_home.xml" value="0.22407407407407406" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_radius_accent_color.xml" value="0.22314814814814815" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_radius_primary_color.xml" value="0.22314814814814815" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/button_success.xml" value="0.30462962962962964" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/gradient_color_background.xml" value="0.175" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_account_24dp.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_add_location_black_24dp.xml" value="0.22037037037037038" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_anon_user_48dp.xml" value="0.22314814814814815" />
@@ -27,6 +29,7 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_phone_android_black_24dp.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_profile.xml" value="0.22407407407407406" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_request.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_right.xml" value="0.175" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/ic_search_white.xml" value="0.22037037037037038" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/rectangle_round.xml" value="0.22407407407407406" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/drawable-v24/rounded_dialog.xml" value="0.22685185185185186" />
@@ -46,6 +49,7 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_doctor_profile.xml" value="0.3234375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_enter_new_password.xml" value="0.22" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_enter_otp.xml" value="0.33" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_feedback.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_get_started.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_get_started_info2.xml" value="0.33" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_get_started_info3.xml" value="0.33" />
@@ -56,7 +60,9 @@
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_patient_profile.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_patient_requests.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_pharmacist_dashboard.xml" value="0.3375" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_pharmacist_profile.xml" value="0.3234375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_reach_buyers.xml" value="0.3375" />
+        <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_reach_sellers.xml" value="0.3375" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_recover_password.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_search_doctors.xml" value="0.25" />
         <entry key="..\:/Users/RAFAY/Desktop/DocMed/app/src/main/res/layout/activity_signin.xml" value="0.33" />

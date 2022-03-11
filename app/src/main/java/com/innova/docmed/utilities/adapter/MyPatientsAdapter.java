@@ -23,7 +23,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.innova.docmed.R;
 import com.innova.docmed.activities.ChatActivity;
-import com.innova.docmed.activities.VedioCall;
+//import com.innova.docmed.activities.VedioCall;
 import com.innova.docmed.model.Patient;
 import com.innova.docmed.patient.MedicalDossier;
 import com.squareup.picasso.Picasso;

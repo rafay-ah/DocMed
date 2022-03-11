@@ -18,6 +18,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DocMed">
         <activity
+            android:name=".activities.Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".pharmacist.PharmacistProfile"
+            android:exported="false" />
+        <activity
+            android:name=".pharmacist.ReachSellers"
+            android:exported="false" />
+        <activity
             android:name=".pharmacist.ReachBuyers"
             android:exported="false" />
         <activity
