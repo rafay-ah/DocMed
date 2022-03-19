@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.innova.docmed">
+    package="com.innova.docmed" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -16,7 +16,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DocMed">
+        android:theme="@style/Theme.DocMed" >
+        <activity
+            android:name=".patient.ReachPharmacist"
+            android:exported="false"
+            android:label="@string/title_activity_reach_pharmacist"
+            android:theme="@style/Theme.DocMed.NoActionBar" />
         <activity
             android:name=".activities.Feedback"
             android:exported="false" />
@@ -106,7 +111,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -90,15 +90,32 @@
         android:layout_marginTop="220dp"
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
+        android:onClick="appointmentsIntent"
         android:text="Appointments"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.671"
-        android:onClick="appointmentsIntent"/>
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/search_pharmacist"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="98dp"
+        android:background="@drawable/button_home"
+        android:onClick="searchPharmacistIntent"
+        android:text="Contact Pharmacist"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toEndOf="@id/appointement2"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.6" />
 
     <Button
         android:id="@+id/profile"
@@ -107,15 +124,15 @@
         android:layout_marginTop="220dp"
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
-        android:text="Profile"
         android:onClick="patientProfileIntent"
+        android:text="Profile"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.671" />
+        app:layout_constraintVertical_bias="0.6" />
 
     <Button
         android:id="@+id/searchBtn"

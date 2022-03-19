@@ -18,6 +18,7 @@ import com.innova.docmed.patient.Appointments;
 import com.innova.docmed.patient.MedicalDossier;
 import com.innova.docmed.patient.MyDoctors;
 import com.innova.docmed.patient.PatientProfile;
+import com.innova.docmed.patient.ReachPharmacist;
 import com.innova.docmed.patient.SearchDoctors;
 import com.innova.docmed.utilities.Common;
 
@@ -74,5 +75,11 @@ public class Dashboard extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Signin.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
+    }
+
+    public void searchPharmacistIntent(View view) {
+        Intent k = new Intent(getApplicationContext(), ReachPharmacist.class);
+        startActivity(k);
+
     }
 }
